@@ -21,6 +21,9 @@
 		98FD3AFE18A5B84A006A0EDD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98FD3AE018A5B84A006A0EDD /* UIKit.framework */; };
 		98FD3B0618A5B84A006A0EDD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98FD3B0418A5B84A006A0EDD /* InfoPlist.strings */; };
 		98FD3B0818A5B84A006A0EDD /* NSUserDefaultCustomClassSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FD3B0718A5B84A006A0EDD /* NSUserDefaultCustomClassSampleTests.m */; };
+		98FD3B1618A5BAC6006A0EDD /* YKUserDefaultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FD3B1518A5BAC6006A0EDD /* YKUserDefaultController.m */; };
+		98FD3B1918A5BBE7006A0EDD /* CustomClassData.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FD3B1818A5BBE7006A0EDD /* CustomClassData.m */; };
+		98FD3B1C18A5BDEA006A0EDD /* CustomClassArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FD3B1B18A5BDEA006A0EDD /* CustomClassArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		98FD3B0318A5B84A006A0EDD /* NSUserDefaultCustomClassSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaultCustomClassSampleTests-Info.plist"; sourceTree = "<group>"; };
 		98FD3B0518A5B84A006A0EDD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98FD3B0718A5B84A006A0EDD /* NSUserDefaultCustomClassSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultCustomClassSampleTests.m; sourceTree = "<group>"; };
+		98FD3B1418A5BAC6006A0EDD /* YKUserDefaultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKUserDefaultController.h; sourceTree = "<group>"; };
+		98FD3B1518A5BAC6006A0EDD /* YKUserDefaultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKUserDefaultController.m; sourceTree = "<group>"; };
+		98FD3B1718A5BBE7006A0EDD /* CustomClassData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClassData.h; sourceTree = "<group>"; };
+		98FD3B1818A5BBE7006A0EDD /* CustomClassData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClassData.m; sourceTree = "<group>"; };
+		98FD3B1A18A5BDEA006A0EDD /* CustomClassArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClassArray.h; sourceTree = "<group>"; };
+		98FD3B1B18A5BDEA006A0EDD /* CustomClassArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClassArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				98FD3AF218A5B84A006A0EDD /* ViewController.m */,
 				98FD3AF418A5B84A006A0EDD /* Images.xcassets */,
 				98FD3AE318A5B84A006A0EDD /* Supporting Files */,
+				98FD3B1418A5BAC6006A0EDD /* YKUserDefaultController.h */,
+				98FD3B1518A5BAC6006A0EDD /* YKUserDefaultController.m */,
+				98FD3B1718A5BBE7006A0EDD /* CustomClassData.h */,
+				98FD3B1818A5BBE7006A0EDD /* CustomClassData.m */,
+				98FD3B1A18A5BDEA006A0EDD /* CustomClassArray.h */,
+				98FD3B1B18A5BDEA006A0EDD /* CustomClassArray.m */,
 			);
 			path = NSUserDefaultCustomClassSample;
 			sourceTree = "<group>";
@@ -250,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98FD3AF318A5B84A006A0EDD /* ViewController.m in Sources */,
+				98FD3B1C18A5BDEA006A0EDD /* CustomClassArray.m in Sources */,
+				98FD3B1618A5BAC6006A0EDD /* YKUserDefaultController.m in Sources */,
+				98FD3B1918A5BBE7006A0EDD /* CustomClassData.m in Sources */,
 				98FD3AED18A5B84A006A0EDD /* AppDelegate.m in Sources */,
 				98FD3AE918A5B84A006A0EDD /* main.m in Sources */,
 			);
